@@ -1,0 +1,33 @@
+header {
+    line-height: 70px;
+    
+    padding: 0 15px;
+
+    /* TEST */
+    background-color: pink;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+}
+.menu {
+    text-align: right;
+    text-transform: uppercase;
+}
+.menu li {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
