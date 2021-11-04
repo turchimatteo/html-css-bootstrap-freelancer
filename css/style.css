@@ -47,6 +47,25 @@ ul {
     vertical-align: middle;
     margin-bottom: 20px;
 }
+.star {
+    font-size: 35px;
+}
+.star i {
+    padding: 0 10px;
+}
+.star:before,
+.star:after {
+    content: '';
+    background-color: black;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    vertical-align: super;
+}
+.green .star::before,
+.green .star::after {
+    background-color: white;
+}
 section {
     padding: 50px 0;
     
